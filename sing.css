@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+    font-family: "EB Garamond", serif;
+}
+body {
+    background-color: rgb(248, 213, 220);
+}
+.container {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h1 {
+    font-size: 30px;
+
+    margin-bottom: 10px;
+}
+.container #formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 500px;
+    width: 400px;
+
+    background-color: rgb(240, 146, 177);
+    color: white;
+}
+
+.container #formulario #grupo_nome, #grupo_sobrenome, #grupo_data #grupo_email{
+    display: flex;
+    flex-direction: column;
+    height: 65px;
+
+}
+.container #formulario #grupos, #nome, #sobrenome, #data, #email{
+    display: flex;
+    flex-direction: column;
+    
+}  
+.container #formulario #grupo_botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    height: 58px;
+}
+.container #formulario input, 
+button {
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.container #formulario label {
+    margin-left: 20px;
+}
+.container #formulario input {
+    font-size: 15px;
+
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.container #formulario button {
+    font-size: 15px;
+    background-color: #ebbade;
+    border: none;
+    border-radius: 7px;
+}
+.container #formulario button:hover {
+    background-color: rgba(214, 60, 112, 0.5);
+    color: white;
+    transition: 0.9s;
+    cursor: pointer;
+}
+.container #formulario a {
+    display: flex;
+    align-self: center;
+
+    color: white;
+}
+.container #formulario a:hover {
+    cursor: pointer;
+    color:  rgba(236, 6, 83, 0.5);
+    transition: 0.5s;
+}
