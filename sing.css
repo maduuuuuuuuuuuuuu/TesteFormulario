@@ -33,13 +33,21 @@ body {
     color: white;
 }
 
-.container #formulario #grupo_nome, #grupo_sobrenome, #grupo_data #grupo_email{
+.container #formulario #grupo_nome, #grupo_sobrenome, #grupo_data,
+#grupo_email, #grupo_senha{
     display: flex;
     flex-direction: column;
     height: 65px;
 
 }
-.container #formulario #grupos, #nome, #sobrenome, #data, #email{
+
+#grupo_data input {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+}
+
+.container #formulario #grupos, #nome, #sobrenome, #data, #email, #senha{
     display: flex;
     flex-direction: column;
     
